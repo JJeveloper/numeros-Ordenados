@@ -55,15 +55,15 @@ public class ViewController implements ActionListener {
         }
 
         if (e.getSource() == view.btnBurbuja) {
-
+            view.txaAreaDos.setText(Arrays.toString(ordenar.burbuja()));
         }
 
         if (e.getSource() == view.btnSeleccion) {
-
+            view.txaAreaDos.setText(Arrays.toString(ordenar.seleccion()));
         }
 
         if (e.getSource() == view.btnInsercion) {
-
+            view.txaAreaDos.setText(Arrays.toString(ordenar.insercion()));
         }
 
     }
@@ -89,7 +89,7 @@ public class ViewController implements ActionListener {
 
         view.btnBurbuja.setEnabled(true);
         view.btnSeleccion.setEnabled(true);
-        view.btnInsercion.setEnabled(true);        
+        view.btnInsercion.setEnabled(true);
 
         view.txaAreaUno.setText(Arrays.toString(ordenar.generarNumerosAleatorios(Integer.parseInt(view.txtCantidad.getText()), Integer.parseInt(view.txtDe.getText()), Integer.parseInt(view.txtHasta.getText()))));
 

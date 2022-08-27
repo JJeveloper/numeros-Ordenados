@@ -11,7 +11,3 @@ Programa básico que genera números aleatorios y los ordena usando los algoritm
 
 ### Entorno de desarrollo
 * Apache Netbeans IDE 14
-
-# Nota
-- Cantidad de números menor a 500.  (cantidad > 1 && cantidad < 500)
-- Rango de numeros de -1000 hasta 1000.  (de >= -1000 && hasta <= 1000)
